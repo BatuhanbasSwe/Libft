@@ -1,0 +1,9 @@
+*.o
+*.a
+a.out
+test
+main.c
+test.c
+gitpassw*
+*.pub
+id_ed25519*
