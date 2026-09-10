@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cbas <cbas@student.42istanbul.com.tr>      +#+  +:+       +#+        */
+/*   By: cbas <cbas <cbas@student.42.tr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/27 16:48:07 by cbas              #+#    #+#             */
-/*   Updated: 2026/08/27 16:52:36 by cbas             ###   ########.fr       */
+/*   Updated: 2026/09/10 18:18:27 by cbas             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {

@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cbas <cbas@student.42.tr>                  +#+  +:+       +#+        */
+/*   By: cbas <cbas <cbas@student.42.tr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/06 01:20:59 by cbas              #+#    #+#             */
-/*   Updated: 2026/09/08 10:10:29 by cbas             ###   ########.fr       */
+/*   Updated: 2026/09/10 18:17:54 by cbas             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {
@@ -29,5 +27,5 @@ char	*ft_strchr(const char *s, int c)
 	{
 		return ((char *)&s[i]);
 	}
-	return (NULL);
+	return (0);
 }
